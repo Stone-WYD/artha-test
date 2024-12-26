@@ -1,6 +1,7 @@
 package com.wyd.dijkstra.btest.d;
 
-import com.wyd.magicapitest.btest.d.impl.HashDMap;
+
+import com.wyd.dijkstra.btest.d.impl.HashDMap;
 
 import java.util.*;
 
