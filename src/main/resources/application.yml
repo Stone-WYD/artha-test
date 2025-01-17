@@ -2,6 +2,14 @@ server:
   port: 9999
 
 spring:
+  application:
+    name: arthas-test
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        namespace: dev
+        group: test
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/magic-api-test?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
